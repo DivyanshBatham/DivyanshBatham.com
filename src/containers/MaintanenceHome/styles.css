@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+
+:root {
+  font-family: sans-serif;
+  font-size: 16px;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+main {
+  background-color: #2a2929;
+  display: flex;
+  flex: wrap;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  overflow: hidden;
+  font-family: sans-serif;
+}
+
+#wrapper {
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#wrapper img {
+  width: 100%;
+}
+
+#logo {
+  max-width: 350px;
+}
+
+code {
+  color: #cecece;
+  font-size: 1.5rem;
+  margin: 1.5rem 0 2.5rem;
+  text-align: center;
+}
+
+.contact {
+  color: #cecece;
+}
+
+ul {
+  width: 100%;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+li {
+  margin: 1rem;
+  cursor: pointer;
+  min-width: 85px;
+}
+
+li a {
+  text-decoration: none;
+  fill: #5d5d5d;
+  color: rgb(150, 150, 150);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: all 0.2s ease-in-out;
+}
+
+li:hover a,
+a:focus {
+  color: #cecece;
+  fill: #cecece;
+}
+
+li span {
+  padding-top: 0.8rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+li a svg {
+  width: 64px;
+  height: 64px;
+}
+
+@media (max-width: 450px) {
+  :root {
+    font-size: 14px;
+  }
+  code {
+    font-size: 1.3rem;
+  }
+
+  li a svg {
+    width: 48px;
+    height: 48px;
+  }
+}
