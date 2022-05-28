@@ -46,7 +46,7 @@ const MaintanenceHome = () => {
         </g>
       </svg>
 
-      <code>{"{ 503 Under Maintanence }"}</code>
+      <code>{"{ 200 Something's Cooking }"}</code>
 
       <ul>
         <li>
