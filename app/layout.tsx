@@ -52,7 +52,7 @@ export default function RootLayout({
           `}
         </Script>
       </head>
-      <body>{children}</body>
+      <body className="bg-[#2a2929]">{children}</body>
     </html>
   );
 }
